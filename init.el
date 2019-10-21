@@ -92,6 +92,7 @@
 (powerline-default-theme)
 
 (ivy-mode 1)
+(setq ivy-display-style 'fancy)
 
 (global-set-key (kbd "C-s") 'swiper-isearch)
 (global-set-key (kbd "M-x") 'counsel-M-x)
@@ -107,6 +108,7 @@
 (global-set-key (kbd "C-c v") 'ivy-push-view)
 (global-set-key (kbd "C-c V") 'ivy-pop-view)
 (global-set-key (kbd "C-c d") 'counsel-descbinds)
+(global-set-key (kbd "C-x C-b") 'ibuffer)
 
 (setq-default fill-column 72)
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
