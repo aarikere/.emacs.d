@@ -153,3 +153,4 @@
 (setq vc-handled-backends (delq 'Git vc-handled-backends))
 
 (put 'magit-clean 'disabled nil)
+(setenv "GIT_ASKPASS" "git-gui--askpass")
