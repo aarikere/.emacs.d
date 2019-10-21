@@ -10,8 +10,11 @@
 # Undo-tree save-files
 *.~undo-tree
 
-# Some autosave stuff
+# autosave stuff
 auto-save-list
 
-# Some eww files
+# eww files
 url
+
+# Server files (I don't know what these are)
+server
