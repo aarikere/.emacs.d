@@ -68,26 +68,29 @@
    (quote
     ("Bmatrix" "Vmatrix" "aligned" "array" "bmatrix" "cases" "gathered" "matrix" "pmatrix" "smallmatrix" "split" "subarray" "vmatrix" "axis")))
  '(preview-scale-function 1.75)
+ '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Consolas" :foundry "outline" :slant normal :weight normal :height 113 :width normal))))
+ '(default ((t (:family "Inconsolata" :foundry "CYRE" :slant normal :weight normal :height 120 :width normal))))
  '(font-lock-builtin-face ((t (:foreground "#268bd2" :slant italic :weight bold))))
  '(font-lock-doc-face ((t (:foreground "#2aa198" :slant italic)))))
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
-;; (setq url-proxy-services
-;;        '(("no_proxy" . "^\\(localhost\\|10.*\\)")
-;;          ("http" . "pxgot4.srv.volvo.com:8080")
-;;          ("https" . "pxgot4.srv.volvo.com:8080")))
-
-(setq url-proxy-services
-       '(("no_proxy" . "^\\(localhost\\|10.*\\|.*volvo.com\\|.*volvo.net\\)")
-         ("http" . "cloudpxgot1.srv.volvo.com:8080")
-         ("https" . "cloudpxgot1.srv.volvo.com:8080")))
+;; Setup for volvo proxy
+(when (string-match-p "SEGOT" (system-name))
+  ;; (setq url-proxy-services
+  ;;        '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+  ;;          ("http" . "pxgot4.srv.volvo.com:8080")
+  ;;          ("https" . "pxgot4.srv.volvo.com:8080")))
+  (setq url-proxy-services
+	'(("no_proxy" . "^\\(localhost\\|10.*\\|.*volvo.com\\|.*volvo.net\\)")
+	  ("http" . "cloudpxgot1.srv.volvo.com:8080")
+	  ("https" . "cloudpxgot1.srv.volvo.com:8080")))
+  )
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 			 ("melpa" . "http://melpa.org/packages/")))
@@ -127,7 +130,7 @@
 (setq TeX-fold-type-list (quote (env)))
 (add-hook 'LaTeX-mode-hook (lambda ()
 			     (TeX-fold-mode 1)
-			     (TeX-fold-buffer)	
+			     (TeX-fold-buffer)
 			     (TeX-source-correlate-mode 1)
 			     (LaTeX-math-mode 1)
 			     (turn-on-auto-fill)
@@ -141,11 +144,17 @@
 			     ;;(ispell)
 			     ))
 
-;; Docview setup
-(setq doc-view-ghostscript-program "C:/Program Files/gs/gs9.50/bin/gswin64c.exe")
 
-;; Markdown setup
-(setq markdown-command "C:/Users/A323747/AppData/Local/Pandoc/pandoc.exe")
+;; Setup for windows systems
+(when (eq system-type 'windows-nt)
+  ;; Docview setup
+  (setq doc-view-ghostscript-program "C:/Program Files/gs/gs9.50/bin/gswin64c.exe")
+  ;; Markdown setup
+  (setq markdown-command "C:/Users/A323747/AppData/Local/Pandoc/pandoc.exe")
+  (setq org-plantuml-jar-path
+	(expand-file-name "~/AppData/Local/Programs/plantuml.jar"))
+  (setq ispell-program-name "C:/Users/arikera/AppData/Local/Hunspell/bin/hunspell.exe")
+  )
 
 ;; active Org-babel languages
 (org-babel-do-load-languages
@@ -153,9 +162,6 @@
  '(;; other Babel languages
    (plantuml . t)
    (dot . t)))
-
-(setq org-plantuml-jar-path
-      (expand-file-name "~/AppData/Local/Programs/plantuml.jar"))
 
 (defun comment-or-uncomment-region-or-line ()
     "Comments or uncomments the region or the current line if there's no active region."
@@ -170,7 +176,6 @@
 
 (setq reftex-bibliography-commands '("bibliography" "nobibliography" "addbibresource"))
 
-(setq ispell-program-name "C:/Users/arikera/AppData/Local/Hunspell/bin/hunspell.exe")
 (setq ispell-dictionary "en_GB")    ;set the default dictionary
 
 (server-start)
