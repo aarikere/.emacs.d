@@ -18,3 +18,6 @@ url
 
 # Server files (I don't know what these are)
 server
+
+# Flycheck files
+flycheck_init.el

@@ -79,7 +79,7 @@
 ;;          ("https" . "pxgot4.srv.volvo.com:8080")))
 
 (setq url-proxy-services
-       '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+       '(("no_proxy" . "^\\(localhost\\|10.*\\|.*volvo.com\\|.*volvo.net\\)")
          ("http" . "cloudpxgot1.srv.volvo.com:8080")
          ("https" . "cloudpxgot1.srv.volvo.com:8080")))
 
