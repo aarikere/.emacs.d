@@ -154,6 +154,7 @@
   (setq org-plantuml-jar-path
 	(expand-file-name "~/AppData/Local/Programs/plantuml.jar"))
   (setq ispell-program-name "C:/Users/arikera/AppData/Local/Hunspell/bin/hunspell.exe")
+  (setenv "GIT_ASKPASS" "git-gui--askpass")
   )
 
 ;; active Org-babel languages
@@ -182,7 +183,6 @@
 (setq vc-handled-backends (delq 'Git vc-handled-backends))
 
 (put 'magit-clean 'disabled nil)
-(setenv "GIT_ASKPASS" "git-gui--askpass")
 
 (use-package treemacs
   :ensure t
