@@ -75,10 +75,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Inconsolata" :foundry "CYRE" :slant normal :weight normal :height 120 :width normal))))
+ '(default ((t (:family "Inconsolata" :foundry "outline" :slant normal :weight normal :height 120 :width normal))))
  '(font-lock-builtin-face ((t (:foreground "#268bd2" :slant italic :weight bold))))
  '(font-lock-doc-face ((t (:foreground "#2aa198" :slant italic)))))
-(add-to-list 'load-path "~/.emacs.d/lisp/")
 
 ;; Setup for volvo proxy
 (when (string-match-p "SEGOT" (system-name))
@@ -108,6 +107,9 @@
 
 (ivy-mode 1)
 (setq ivy-display-style 'fancy)
+
+;; Dunno why, but incremental search becomes very slow on big files with the inconsolata font on windows.
+(setq inhibit-compacting-font-caches t)
 
 (global-set-key (kbd "C-s") 'swiper-isearch)
 (global-set-key (kbd "M-x") 'counsel-M-x)
