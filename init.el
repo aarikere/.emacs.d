@@ -44,6 +44,7 @@
  '(magit-status-sections-hook
    (quote
     (magit-insert-status-headers magit-insert-merge-log magit-insert-rebase-sequence magit-insert-am-sequence magit-insert-sequencer-sequence magit-insert-bisect-output magit-insert-bisect-rest magit-insert-bisect-log magit-insert-untracked-files magit-insert-unstaged-changes magit-insert-staged-changes magit-insert-stashes magit-insert-unpulled-from-pushremote magit-insert-unpulled-from-upstream magit-insert-unpushed-to-pushremote magit-insert-unpushed-to-upstream magit-insert-recent-commits)))
+ '(org-export-backends (quote (ascii html icalendar latex md odt)))
  '(org-modules
    (quote
     (org-bbdb org-bibtex org-docview org-eww org-gnus org-info org-irc org-mhe org-rmail org-tempo org-w3m)))
@@ -181,7 +182,10 @@
 
 (setq ispell-dictionary "en_GB")    ;set the default dictionary
 
-(server-start)
+(if (and (fboundp 'server-running-p)
+         (not (server-running-p)))
+    (server-start))
+
 (setq vc-handled-backends (delq 'Git vc-handled-backends))
 
 (put 'magit-clean 'disabled nil)
