@@ -310,8 +310,13 @@
   (global-company-mode t)
   )
 
-(add-hook 'global-company-mode 'company-quickhelp-mode)
 (eval-after-load 'company
   '(add-to-list 'company-backends 'company-irony))
+
+(use-package company-quickhelp
+  :config
+  (company-quickhelp-mode 1)
+  (setq company-quickhelp-delay 0.5)
+  )
 
 ;;; .emacs ends here
