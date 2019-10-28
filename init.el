@@ -50,7 +50,7 @@
     (org-bbdb org-bibtex org-docview org-eww org-gnus org-info org-irc org-mhe org-rmail org-tempo org-w3m)))
  '(package-selected-packages
    (quote
-    (doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit-lfs magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy solarized-theme auctex org)))
+    (spaceline-all-the-icons all-the-icons-dired doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit-lfs magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy solarized-theme auctex org)))
  '(preview-auto-reveal
    (quote
     (eval
@@ -109,11 +109,16 @@
   :config
   (all-the-icons-ivy-setup))
 
+(add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
+
 (require 'powerline)
 (powerline-default-theme)
 ;; (use-package doom-modeline
-;;       :ensure t
-;;       :hook (after-init . doom-modeline-mode))
+;;   :ensure t
+;;   :config (setq doom-modeline-minor-modes 1)
+;;   :hook (after-init . doom-modeline-mode))
+;; (require 'spaceline-config)
+;; (spaceline-all-the-icons-theme)
 
 (ivy-mode 1)
 (setq ivy-display-style 'fancy)
@@ -281,7 +286,7 @@
   :ensure t)
 
 ;; Only set up dap for linux systems
-(when (neq system-type 'windows-nt)
+(unless (eq system-type 'windows-nt)
   (dap-mode 1)
   (dap-ui-mode 1)
   ;; enables mouse hover support
