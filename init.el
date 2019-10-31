@@ -44,13 +44,13 @@
  '(magit-status-sections-hook
    (quote
     (magit-insert-status-headers magit-insert-merge-log magit-insert-rebase-sequence magit-insert-am-sequence magit-insert-sequencer-sequence magit-insert-bisect-output magit-insert-bisect-rest magit-insert-bisect-log magit-insert-untracked-files magit-insert-unstaged-changes magit-insert-staged-changes magit-insert-stashes magit-insert-unpulled-from-pushremote magit-insert-unpulled-from-upstream magit-insert-unpushed-to-pushremote magit-insert-unpushed-to-upstream magit-insert-recent-commits)))
- '(org-export-backends (quote (ascii html icalendar latex md odt)))
+ '(org-export-backends (quote (ascii html latex odt confluence)))
  '(org-modules
    (quote
     (org-bbdb org-bibtex org-docview org-eww org-gnus org-info org-irc org-mhe org-rmail org-tempo org-w3m)))
  '(package-selected-packages
    (quote
-    (spaceline-all-the-icons all-the-icons-dired doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit-lfs magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy solarized-theme auctex org)))
+    (confluence ox-gfm spaceline-all-the-icons all-the-icons-dired doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit-lfs magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy solarized-theme auctex org)))
  '(preview-auto-reveal
    (quote
     (eval
@@ -80,6 +80,9 @@
  '(font-lock-builtin-face ((t (:foreground "#268bd2" :slant italic :weight bold))))
  '(font-lock-doc-face ((t (:foreground "#2aa198" :slant italic)))))
 
+;; Dunno why, but incremental search becomes very slow on big files with the inconsolata font on windows.
+(setq inhibit-compacting-font-caches t)
+
 ;; Setup for volvo proxy
 (when (string-match-p "SEGOT" (system-name))
   ;; (setq url-proxy-services
@@ -103,6 +106,9 @@
 (require 'use-package)
 (require 'req-package)
 
+(eval-after-load "org"
+  '(require 'ox-gfm nil t))
+
 (use-package all-the-icons)
 (use-package all-the-icons-ivy
   :ensure t
@@ -122,9 +128,6 @@
 
 (ivy-mode 1)
 (setq ivy-display-style 'fancy)
-
-;; Dunno why, but incremental search becomes very slow on big files with the inconsolata font on windows.
-(setq inhibit-compacting-font-caches t)
 
 (global-set-key (kbd "C-s") 'swiper-isearch)
 (global-set-key (kbd "M-x") 'counsel-M-x)
@@ -160,7 +163,6 @@
 			     (flyspell-mode 1)
 			     ;;(ispell)
 			     ))
-
 
 ;; Setup for windows systems
 (when (eq system-type 'windows-nt)
