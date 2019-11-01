@@ -128,6 +128,7 @@
 
 (ivy-mode 1)
 (setq ivy-display-style 'fancy)
+(setq ivy-initial-inputs-alist nil)
 
 (global-set-key (kbd "C-s") 'swiper-isearch)
 (global-set-key (kbd "M-x") 'counsel-M-x)
