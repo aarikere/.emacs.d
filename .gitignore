@@ -24,3 +24,5 @@ flycheck_init.el
 
 # Transient file
 transient/history.el
+
+.dap-breakpoints
