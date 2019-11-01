@@ -22,7 +22,7 @@ server
 # Flycheck files
 flycheck_init.el
 
-# Transient file
-transient/history.el
+# Transient files
+transient/
 
 .dap-breakpoints
