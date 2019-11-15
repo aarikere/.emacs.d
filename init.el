@@ -96,7 +96,8 @@
   )
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-			 ("melpa" . "http://melpa.org/packages/")))
+			 ("melpa" . "http://melpa.org/packages/")
+			 ("org" . "http://orgmode.org/elpa/")))
 
 (menu-bar-mode 0)
 (tool-bar-mode 0)

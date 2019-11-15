@@ -38,6 +38,9 @@
 
 ;; Define the backend itself
 (org-export-define-derived-backend 'confluence 'ascii
+  :menu-entry
+  '(?c "Export to Confluence (temporary buffer)"
+       (lambda (a s v b) (org-confluence-export-as-confluence a s v b)))
   :translate-alist '((bold . org-confluence-bold)
 		     (code . org-confluence-code)
 		     (example-block . org-confluence-example-block)
