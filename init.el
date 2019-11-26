@@ -108,7 +108,9 @@
 (require 'req-package)
 
 (eval-after-load "org"
-  '(require 'ox-gfm nil t))
+  '(progn
+     (require 'ox-gfm nil t)
+     (setq org-startup-folded nil)))
 
 (use-package all-the-icons)
 (use-package all-the-icons-ivy
