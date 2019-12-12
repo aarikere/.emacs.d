@@ -50,7 +50,7 @@
     (org-bbdb org-bibtex org-docview org-eww org-gnus org-info org-irc org-mhe org-rmail org-tempo org-w3m)))
  '(package-selected-packages
    (quote
-    (org-bullets confluence ox-gfm spaceline-all-the-icons all-the-icons-dired doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit-lfs magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy solarized-theme auctex org)))
+    (company-anaconda anaconda-mode org-bullets confluence ox-gfm spaceline-all-the-icons all-the-icons-dired doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit-lfs magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy solarized-theme auctex org)))
  '(preview-auto-reveal
    (quote
     (eval
@@ -336,6 +336,20 @@
 
 (eval-after-load 'company
   '(add-to-list 'company-backends 'company-irony))
+
+(use-package anaconda-mode
+  :ensure t
+  :config
+  (add-hook 'python-mode-hook 'anaconda-mode)
+  ;;(add-hook 'python-mode-hook 'anaconda-eldoc-mode)
+  )
+(use-package company-anaconda
+  :ensure t
+  :init (require 'rx)
+  :after (company)
+  :config
+  (add-to-list 'company-backends 'company-anaconda)
+  )
 
 (use-package company-quickhelp
   :config
