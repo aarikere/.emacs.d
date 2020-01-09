@@ -76,18 +76,6 @@
 ;; Dunno why, but incremental search becomes very slow on big files with the inconsolata font on windows.
 (setq inhibit-compacting-font-caches t)
 
-;; Setup for volvo proxy
-(when (string-match-p "SEGOT" (system-name))
-  ;; (setq url-proxy-services
-  ;;        '(("no_proxy" . "^\\(localhost\\|10.*\\)")
-  ;;          ("http" . "pxgot4.srv.volvo.com:8080")
-  ;;          ("https" . "pxgot4.srv.volvo.com:8080")))
-  (setq url-proxy-services
-	'(("no_proxy" . "^\\(localhost\\|10.*\\|.*volvo.com\\|.*volvo.net\\)")
-	  ("http" . "cloudpxgot1.srv.volvo.com:8080")
-	  ("https" . "cloudpxgot1.srv.volvo.com:8080")))
-  )
-
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 			 ("melpa" . "http://melpa.org/packages/")
 			 ("org" . "http://orgmode.org/elpa/")))
