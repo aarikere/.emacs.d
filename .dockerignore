@@ -1,0 +1,10 @@
+# Installed packages
+elpa
+
+# git folder
+.git
+.gitignore
+
+# Other transient folders
+transient
+url
