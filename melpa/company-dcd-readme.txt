@@ -1,1 +1,0 @@
-Company backend for DCD.
