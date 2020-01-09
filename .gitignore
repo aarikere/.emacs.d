@@ -26,3 +26,6 @@ flycheck_init.el
 transient/
 
 .dap-breakpoints
+
+# Semantic recorder file
+srecode-map.el
