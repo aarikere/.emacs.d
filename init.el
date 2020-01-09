@@ -4,13 +4,6 @@
 ;;; Code:
 ;; (require 'package)
 
-;; ;; Some setup to direct to local repo instead of online ones since
-;; ;; they fail due to Volvo's firewall
-;; ;; Proxy has now been set up, so this is not needed anymore
-;; (setq package-archives '(("gnu" . "~/.emacs.d/gnu/")
-;; 			 ("melpa" . "~/.emacs.d/melpa/")
-;; 			 ("org" . "~/.emacs.d/org/")))
-
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
