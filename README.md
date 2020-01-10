@@ -1,7 +1,7 @@
-# .emacs.d
-My personal emacs config
+# Emacs config
+My personal emacs config. Also contains all currently installed packages. Goal is to remove all installed packages and do `use-package` for all packages in the init file. 
 
-# Docker
+# Dockerized emacs
 To build, run `docker build . -t emacs-personal --network=host` while in
 the folder
 
