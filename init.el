@@ -96,10 +96,16 @@
     (setq user-mail-address "adithya.arikere@volvo.com")
   (setq user-mail-address "a.arikere@gmail.com"))
 
+(when (string-match-p "SEGOTW10380599" (system-name))
+    (setq org-agenda-files (list "~/Desktop/org-notes/")))
+
 (eval-after-load "org"
   '(progn
      (require 'ox-gfm nil t)
-     (setq org-startup-folded nil)))
+     (setq org-startup-folded nil)
+     (global-set-key (kbd "C-c l") 'org-store-link)
+     (global-set-key (kbd "C-c a") 'org-agenda)
+     (global-set-key (kbd "C-c c") 'org-capture)))
 
 (use-package all-the-icons)
 (use-package all-the-icons-ivy
