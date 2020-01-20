@@ -91,13 +91,9 @@
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
-(setq user-full-name "Adithya Arikere")
-(if (string-match-p "SEGOT" (system-name))
-    (setq user-mail-address "adithya.arikere@volvo.com")
-  (setq user-mail-address "a.arikere@gmail.com"))
-
-(when (string-match-p "SEGOTW10380599" (system-name))
-    (setq org-agenda-files (list "~/Desktop/org-notes/")))
+(load "~/.emacs.d/personalSettings.el")
+;; Has username (user-full-name), email (user-mail-address) and
+;; org-agenda-files variable which is locked to a particular system
 
 (eval-after-load "org"
   '(progn
@@ -167,11 +163,11 @@
 (when (eq system-type 'windows-nt)
   ;; Docview setup
   (setq doc-view-ghostscript-program "C:/Program Files/gs/gs9.50/bin/gswin64c.exe")
-  ;; Markdown setup
-  (setq markdown-command "C:/Users/A323747/AppData/Local/Pandoc/pandoc.exe")
+    ;; Markdown setup
+  (setq markdown-command "~/AppData/Local/Pandoc/pandoc.exe")
   (setq org-plantuml-jar-path
 	(expand-file-name "~/AppData/Local/Programs/plantuml.jar"))
-  (setq ispell-program-name "C:/Users/arikera/AppData/Local/Hunspell/bin/hunspell.exe")
+  (setq ispell-program-name "~/AppData/Local/Hunspell/bin/hunspell.exe")
   (setenv "GIT_ASKPASS" "git-gui--askpass")
   )
 

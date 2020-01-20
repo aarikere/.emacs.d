@@ -29,3 +29,6 @@ transient/
 
 # Semantic recorder file
 srecode-map.el
+
+# Personal settings
+personalSettings.el
