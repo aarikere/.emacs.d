@@ -91,6 +91,11 @@
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
+(setq user-full-name "Adithya Arikere")
+(if (string-match-p "SEGOT" (system-name))
+    (setq user-mail-address "adithya.arikere@volvo.com")
+  (setq user-mail-address "a.arikere@gmail.com"))
+
 (eval-after-load "org"
   '(progn
      (require 'ox-gfm nil t)
@@ -172,13 +177,13 @@
    (dot . t)))
 
 (defun comment-or-uncomment-region-or-line ()
-    "Comments or uncomments the region or the current line if there's no active region."
-    (interactive)
-    (let (beg end)
-        (if (region-active-p)
-            (setq beg (region-beginning) end (region-end))
-            (setq beg (line-beginning-position) end (line-end-position)))
-        (comment-or-uncomment-region beg end)))
+  "Comments or uncomments the region or the current line if there's no active region."
+  (interactive)
+  (let (beg end)
+    (if (region-active-p)
+	(setq beg (region-beginning) end (region-end))
+      (setq beg (line-beginning-position) end (line-end-position)))
+    (comment-or-uncomment-region beg end)))
 
 (global-set-key [?\C-\;] 'comment-or-uncomment-region-or-line)
 
