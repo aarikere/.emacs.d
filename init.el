@@ -69,9 +69,10 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Consolas" :foundry "outline" :slant normal :weight normal :height 113 :width normal))))
+ '(default ((t (:family "Source Code Pro" :foundry "ADBO" :slant normal :weight normal :height 98 :width normal))))
  '(font-lock-builtin-face ((t (:foreground "#268bd2" :slant italic :weight bold))))
- '(font-lock-doc-face ((t (:foreground "#2aa198" :slant italic)))))
+ '(font-lock-doc-face ((t (:foreground "#2aa198" :slant italic))))
+ '(italic ((t (:underline nil :slant italic)))))
 
 ;; Dunno why, but incremental search becomes very slow on big files with the inconsolata font on windows.
 (setq inhibit-compacting-font-caches t)
