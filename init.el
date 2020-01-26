@@ -102,7 +102,8 @@
      (setq org-startup-folded nil)
      (global-set-key (kbd "C-c l") 'org-store-link)
      (global-set-key (kbd "C-c a") 'org-agenda)
-     (global-set-key (kbd "C-c c") 'org-capture)))
+     (global-set-key (kbd "C-c c") 'org-capture)
+     (setq org-export-with-toc nil)))
 
 (use-package all-the-icons)
 (use-package all-the-icons-ivy
