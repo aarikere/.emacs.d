@@ -347,9 +347,10 @@
   (setq company-quickhelp-delay 0.5)
   )
 
-(defun git-bash () (interactive)
-       (let ((explicit-shell-file-name "C:/Program Files/Git/bin/bash.exe")
-	     (explicit-bash.exe-args '("--login" "-i")))
-	 (call-interactively 'shell)))
+(when (eq system-type 'windows-nt)
+  (defun git-bash () (interactive)
+	 (let ((explicit-shell-file-name "C:/Program Files/Git/bin/bash.exe")
+	       (explicit-bash.exe-args '("--login" "-i")))
+	   (call-interactively 'shell))))
 (prefer-coding-system 'utf-8)
 ;;; .emacs ends here
