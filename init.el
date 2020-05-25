@@ -205,7 +205,6 @@
 
 (setq vc-handled-backends (delq 'Git vc-handled-backends))
 
-(put 'magit-clean 'disabled nil)
 
 (use-package treemacs
   :ensure t
@@ -358,3 +357,4 @@
 	   (call-interactively 'shell))))
 (prefer-coding-system 'utf-8)
 ;;; .emacs ends here
+(put 'magit-clean 'disabled nil)
