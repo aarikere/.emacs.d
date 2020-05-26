@@ -18,6 +18,10 @@ Use UTF8 bullets in Org mode headings.
 
 ;;;***
 
+;;;### (autoloads nil nil ("org-bullets-pkg.el") (0 0 0 0))
+
+;;;***
+
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
