@@ -347,6 +347,16 @@
   (add-to-list 'company-backends 'company-anaconda)
   )
 
+(use-package company-ghc
+  :ensure t
+  :after (company)
+  :config
+  (add-to-list 'company-backends 'company-ghc)
+  )
+
+(use-package rust-mode
+  :hook (rust-mode . lsp))
+
 (use-package company-quickhelp
   :config
   (company-quickhelp-mode 1)
