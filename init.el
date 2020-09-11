@@ -14,56 +14,47 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(LaTeX-command-style (quote (("" "%(PDF)%(latex) -shell-escape %S%(PDFout)"))))
+ '(LaTeX-command-style '(("" "%(PDF)%(latex) -shell-escape %S%(PDFout)")))
  '(TeX-PDF-mode t)
- '(TeX-engine (quote luatex))
+ '(TeX-engine 'luatex)
  '(TeX-fold-env-spec-list
-   (quote
-    (("[comment]"
+   '(("[comment]"
       ("comment"))
      ("[tikzpicture]"
       ("tikzpicture"))
      ("[tabular]"
-      ("tabular")))))
- '(custom-enabled-themes (quote (solarized-dark)))
+      ("tabular"))))
+ '(custom-enabled-themes '(solarized-dark))
  '(custom-safe-themes
-   (quote
-    ("2809bcb77ad21312897b541134981282dc455ccd7c14d74cc333b6e549b824f3" "0598c6a29e13e7112cfbc2f523e31927ab7dce56ebb2016b567e1eff6dc1fd4f" "3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+   '("2809bcb77ad21312897b541134981282dc455ccd7c14d74cc333b6e549b824f3" "0598c6a29e13e7112cfbc2f523e31927ab7dce56ebb2016b567e1eff6dc1fd4f" "3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default))
  '(display-time-mode t)
- '(magit-log-margin (quote (t age-abbreviated magit-log-margin-width t 18)))
+ '(magit-log-margin '(t age-abbreviated magit-log-margin-width t 18))
  '(magit-log-section-commit-count 50)
- '(magit-log-select-margin (quote (t age-abbreviated magit-log-margin-width t 18)))
- '(magit-status-margin (quote (t age-abbreviated magit-log-margin-width nil 18)))
+ '(magit-log-select-margin '(t age-abbreviated magit-log-margin-width t 18))
+ '(magit-status-margin '(t age-abbreviated magit-log-margin-width nil 18))
  '(magit-status-sections-hook
-   (quote
-    (magit-insert-status-headers magit-insert-merge-log magit-insert-rebase-sequence magit-insert-am-sequence magit-insert-sequencer-sequence magit-insert-bisect-output magit-insert-bisect-rest magit-insert-bisect-log magit-insert-untracked-files magit-insert-unstaged-changes magit-insert-staged-changes magit-insert-stashes magit-insert-unpulled-from-pushremote magit-insert-unpulled-from-upstream magit-insert-unpushed-to-pushremote magit-insert-unpushed-to-upstream magit-insert-recent-commits)))
+   '(magit-insert-status-headers magit-insert-merge-log magit-insert-rebase-sequence magit-insert-am-sequence magit-insert-sequencer-sequence magit-insert-bisect-output magit-insert-bisect-rest magit-insert-bisect-log magit-insert-untracked-files magit-insert-unstaged-changes magit-insert-staged-changes magit-insert-stashes magit-insert-unpulled-from-pushremote magit-insert-unpulled-from-upstream magit-insert-unpushed-to-pushremote magit-insert-unpushed-to-upstream magit-insert-recent-commits))
  '(org-agenda-files
-   (quote
-    ("c:/Users/A323747/org-notes/ASIL_qualification.org" "c:/Users/A323747/org-notes/DAVA-support.org" "c:/Users/A323747/org-notes/EMobMeeting.org" "c:/Users/A323747/org-notes/General.org" "c:/Users/A323747/org-notes/ManualVMM.org" "c:/Users/A323747/org-notes/NominalSpeedEstimation.org" "c:/Users/A323747/org-notes/VERA.org" "c:/Users/A323747/org-notes/eTruckGen3.org")))
- '(org-export-backends (quote (ascii html latex odt confluence)))
+   '("c:/Users/A323747/org-notes/ASIL_qualification.org" "c:/Users/A323747/org-notes/DAVA-support.org" "c:/Users/A323747/org-notes/EMobMeeting.org" "c:/Users/A323747/org-notes/General.org" "c:/Users/A323747/org-notes/ManualVMM.org" "c:/Users/A323747/org-notes/NominalSpeedEstimation.org" "c:/Users/A323747/org-notes/VERA.org" "c:/Users/A323747/org-notes/eTruckGen3.org"))
+ '(org-export-backends '(ascii html latex odt confluence))
  '(org-modules
-   (quote
-    (org-bbdb org-bibtex org-docview org-eww org-gnus org-info org-irc org-mhe org-rmail org-tempo org-w3m)))
+   '(org-bbdb org-bibtex org-docview org-eww org-gnus org-info org-irc org-mhe org-rmail org-tempo org-w3m))
  '(package-selected-packages
-   (quote
-    (org-ref company-anaconda anaconda-mode org-bullets confluence ox-gfm spaceline-all-the-icons all-the-icons-dired doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit-lfs magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy solarized-theme auctex org)))
+   '(slime slime-company elgrep org-ref company-anaconda anaconda-mode org-bullets confluence ox-gfm spaceline-all-the-icons all-the-icons-dired doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit-lfs magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy solarized-theme auctex org))
  '(preview-auto-reveal
-   (quote
-    (eval
+   '(eval
      (preview-arrived-via
       (key-binding
        [left])
       (key-binding
-       [right])))))
- '(preview-default-option-list (quote ("displaymath" "floats" "graphics" "textmath")))
+       [right]))))
+ '(preview-default-option-list '("displaymath" "floats" "graphics" "textmath"))
  '(preview-default-preamble
-   (quote
-    ("\\RequirePackage["
+   '("\\RequirePackage["
      ("," . preview-default-option-list)
-     "]{preview}[2004/11/05]" "\\PreviewEnvironment{tikzpicture}" "\\PreviewEnvironment{tabular}")))
+     "]{preview}[2004/11/05]" "\\PreviewEnvironment{tikzpicture}" "\\PreviewEnvironment{tabular}"))
  '(preview-inner-environments
-   (quote
-    ("Bmatrix" "Vmatrix" "aligned" "array" "bmatrix" "cases" "gathered" "matrix" "pmatrix" "smallmatrix" "split" "subarray" "vmatrix" "axis")))
+   '("Bmatrix" "Vmatrix" "aligned" "array" "bmatrix" "cases" "gathered" "matrix" "pmatrix" "smallmatrix" "split" "subarray" "vmatrix" "axis"))
  '(preview-scale-function 1.75)
  '(show-paren-mode t)
  '(tool-bar-mode nil))
@@ -99,9 +90,12 @@
 ;; Has username (user-full-name), email (user-mail-address) and
 ;; org-agenda-files variable which is locked to a particular system
 
+(add-to-list 'load-path "~/.emacs.d/elpa/ox-confluence/")
+
 (eval-after-load "org"
   '(progn
      (require 'ox-gfm nil t)
+     (require 'ox-confluence nil t)
      (setq org-startup-folded nil)
      (global-set-key (kbd "C-c l") 'org-store-link)
      (global-set-key (kbd "C-c a") 'org-agenda)
@@ -332,6 +326,8 @@
 
 (eval-after-load 'company
   '(add-to-list 'company-backends 'company-irony))
+
+(setq company-dabbrev-downcase nil)
 
 (use-package anaconda-mode
   :ensure t
