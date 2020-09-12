@@ -142,6 +142,7 @@
 (global-set-key (kbd "C-c V") 'ivy-pop-view)
 (global-set-key (kbd "C-c d") 'counsel-descbinds)
 (global-set-key (kbd "C-x C-b") 'ibuffer)
+(global-set-key (kbd "C-x g") 'magit-status)
 
 (setq-default fill-column 72)
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
