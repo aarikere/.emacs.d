@@ -16,9 +16,7 @@ Provide completion info according to COMMAND and ARG.  IGNORED, not used.
 \(fn COMMAND &optional ARG &rest IGNORED)" t nil)
 
 (autoload 'company-ghc-diagnose "company-ghc" "\
-Show diagnostic info of the current buffer in other buffer.
-
-\(fn)" t nil)
+Show diagnostic info of the current buffer in other buffer." t nil)
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "company-ghc" '("company-ghc-")))
 
