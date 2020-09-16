@@ -40,7 +40,7 @@
  '(org-modules
    '(org-bbdb org-bibtex org-docview org-eww org-gnus org-info org-irc org-mhe org-rmail org-tempo org-w3m))
  '(package-selected-packages
-   '(solarized-theme company-ghc slime slime-company elgrep org-ref company-anaconda anaconda-mode org-bullets confluence ox-gfm spaceline-all-the-icons doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy auctex org))
+   '(wanderlust solarized-theme company-ghc slime slime-company elgrep org-ref company-anaconda anaconda-mode org-bullets confluence ox-gfm spaceline-all-the-icons doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy auctex org))
  '(preview-auto-reveal
    '(eval
      (preview-arrived-via
@@ -364,5 +364,8 @@
 	       (explicit-bash.exe-args '("--login" "-i")))
 	   (call-interactively 'shell))))
 (prefer-coding-system 'utf-8)
-;;; .emacs ends here
+
 (put 'magit-clean 'disabled nil)
+
+;;; init.el ends here
+
