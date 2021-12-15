@@ -1,0 +1,776 @@
+The system is: Linux - 4.4.0-19041-Microsoft - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_172ce/fast && /usr/bin/make -f CMakeFiles/cmTC_172ce.dir/build.make CMakeFiles/cmTC_172ce.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_172ce.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_172ce.dir/testCCompiler.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_172ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_172ce.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_172ce.dir/testCCompiler.c.o  -o cmTC_172ce 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9c12/fast && /usr/bin/make -f CMakeFiles/cmTC_f9c12.dir/build.make CMakeFiles/cmTC_f9c12.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccj7VTTT.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o /tmp/ccj7VTTT.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_f9c12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9c12.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o  -o cmTC_f9c12 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f9c12' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cctgtqhL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f9c12 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f9c12' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_f9c12/fast && /usr/bin/make -f CMakeFiles/cmTC_f9c12.dir/build.make CMakeFiles/cmTC_f9c12.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccj7VTTT.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o /tmp/ccj7VTTT.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_f9c12]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9c12.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o  -o cmTC_f9c12 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f9c12' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cctgtqhL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f9c12 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctgtqhL.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f9c12] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_f9c12.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0a949/fast && /usr/bin/make -f CMakeFiles/cmTC_0a949.dir/build.make CMakeFiles/cmTC_0a949.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a949.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_0a949.dir/testCXXCompiler.cxx.o -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_0a949
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a949.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0a949.dir/testCXXCompiler.cxx.o  -o cmTC_0a949 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c74f4/fast && /usr/bin/make -f CMakeFiles/cmTC_c74f4.dir/build.make CMakeFiles/cmTC_c74f4.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccW2C6D4.s
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccW2C6D4.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_c74f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c74f4.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c74f4 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c74f4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYvGbpw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c74f4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c74f4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_c74f4/fast && /usr/bin/make -f CMakeFiles/cmTC_c74f4.dir/build.make CMakeFiles/cmTC_c74f4.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccW2C6D4.s]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccW2C6D4.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_c74f4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c74f4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c74f4 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c74f4' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYvGbpw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c74f4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccYvGbpw.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c74f4] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_c74f4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2284b/fast && /usr/bin/make -f CMakeFiles/cmTC_2284b.dir/build.make CMakeFiles/cmTC_2284b.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2284b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_2284b.dir/CheckIncludeFile.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2284b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2284b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2284b.dir/CheckIncludeFile.c.o  -o cmTC_2284b 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ea2f/fast && /usr/bin/make -f CMakeFiles/cmTC_0ea2f.dir/build.make CMakeFiles/cmTC_0ea2f.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ea2f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_0ea2f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0ea2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ea2f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0ea2f.dir/CheckFunctionExists.c.o  -o cmTC_0ea2f  -lpthread 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIM succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ccd4/fast && /usr/bin/make -f CMakeFiles/cmTC_3ccd4.dir/build.make CMakeFiles/cmTC_3ccd4.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ccd4.dir/src.c.o
+/usr/bin/cc   -DHAVE_STRUCT_STAT_ST_MTIM -fPIE   -o CMakeFiles/cmTC_3ccd4.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3ccd4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ccd4.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_STRUCT_STAT_ST_MTIM    CMakeFiles/cmTC_3ccd4.dir/src.c.o  -o cmTC_3ccd4 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_NSEC succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c3579/fast && /usr/bin/make -f CMakeFiles/cmTC_c3579.dir/build.make CMakeFiles/cmTC_c3579.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3579.dir/src.c.o
+/usr/bin/cc   -DHAVE_STRUCT_STAT_NSEC -fPIE   -o CMakeFiles/cmTC_c3579.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c3579
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3579.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_STRUCT_STAT_NSEC    CMakeFiles/cmTC_c3579.dir/src.c.o  -o cmTC_c3579 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+  return 0;
+}
+
+Performing C SOURCE FILE Test IS_WALL_SUPPORTED succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bbcfd/fast && /usr/bin/make -f CMakeFiles/cmTC_bbcfd.dir/build.make CMakeFiles/cmTC_bbcfd.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bbcfd.dir/src.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -DIS_WALL_SUPPORTED -fPIE   -Wall -o CMakeFiles/cmTC_bbcfd.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bbcfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbcfd.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -DIS_WALL_SUPPORTED    CMakeFiles/cmTC_bbcfd.dir/src.c.o  -o cmTC_bbcfd 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WEXTRA_SUPPORTED succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_72b10/fast && /usr/bin/make -f CMakeFiles/cmTC_72b10.dir/build.make CMakeFiles/cmTC_72b10.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72b10.dir/src.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -DIS_WEXTRA_SUPPORTED -fPIE   -Wextra -o CMakeFiles/cmTC_72b10.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_72b10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72b10.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -DIS_WEXTRA_SUPPORTED    CMakeFiles/cmTC_72b10.dir/src.c.o  -o cmTC_72b10 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WNO_MISSING_FIELD_INITIALIZERS_SUPPORTED succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_538bd/fast && /usr/bin/make -f CMakeFiles/cmTC_538bd.dir/build.make CMakeFiles/cmTC_538bd.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_538bd.dir/src.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -DIS_WNO_MISSING_FIELD_INITIALIZERS_SUPPORTED -fPIE   -Wno-missing-field-initializers -o CMakeFiles/cmTC_538bd.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_538bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_538bd.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -DIS_WNO_MISSING_FIELD_INITIALIZERS_SUPPORTED    CMakeFiles/cmTC_538bd.dir/src.c.o  -o cmTC_538bd 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WSTRICT_ALIASING_SUPPORTED succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_518d5/fast && /usr/bin/make -f CMakeFiles/cmTC_518d5.dir/build.make CMakeFiles/cmTC_518d5.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_518d5.dir/src.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -DIS_WSTRICT_ALIASING_SUPPORTED -fPIE   -Wstrict-aliasing -o CMakeFiles/cmTC_518d5.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_518d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_518d5.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -DIS_WSTRICT_ALIASING_SUPPORTED    CMakeFiles/cmTC_518d5.dir/src.c.o  -o cmTC_518d5 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WSTRICT_PROTOTYPES_SUPPORTED succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bd976/fast && /usr/bin/make -f CMakeFiles/cmTC_bd976.dir/build.make CMakeFiles/cmTC_bd976.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd976.dir/src.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -DIS_WSTRICT_PROTOTYPES_SUPPORTED -fPIE   -Wstrict-prototypes -o CMakeFiles/cmTC_bd976.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bd976
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd976.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -DIS_WSTRICT_PROTOTYPES_SUPPORTED    CMakeFiles/cmTC_bd976.dir/src.c.o  -o cmTC_bd976 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WDECLARATION_AFTER_STATEMENT_SUPPORTED succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2ccff/fast && /usr/bin/make -f CMakeFiles/cmTC_2ccff.dir/build.make CMakeFiles/cmTC_2ccff.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ccff.dir/src.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -DIS_WDECLARATION_AFTER_STATEMENT_SUPPORTED -fPIE   -Wdeclaration-after-statement -o CMakeFiles/cmTC_2ccff.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2ccff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ccff.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -DIS_WDECLARATION_AFTER_STATEMENT_SUPPORTED    CMakeFiles/cmTC_2ccff.dir/src.c.o  -o cmTC_2ccff 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WSHIFT_COUNT_OVERFLOW_SUPPORTED succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fd0d7/fast && /usr/bin/make -f CMakeFiles/cmTC_fd0d7.dir/build.make CMakeFiles/cmTC_fd0d7.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd0d7.dir/src.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -DIS_WSHIFT_COUNT_OVERFLOW_SUPPORTED -fPIE   -Wshift-count-overflow -o CMakeFiles/cmTC_fd0d7.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fd0d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd0d7.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -DIS_WSHIFT_COUNT_OVERFLOW_SUPPORTED    CMakeFiles/cmTC_fd0d7.dir/src.c.o  -o cmTC_fd0d7 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WUNUSED_CONST_VARIABLE_SUPPORTED succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6f68/fast && /usr/bin/make -f CMakeFiles/cmTC_c6f68.dir/build.make CMakeFiles/cmTC_c6f68.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6f68.dir/src.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -DIS_WUNUSED_CONST_VARIABLE_SUPPORTED -fPIE   -Wunused-const-variable -o CMakeFiles/cmTC_c6f68.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c6f68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6f68.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -DIS_WUNUSED_CONST_VARIABLE_SUPPORTED    CMakeFiles/cmTC_c6f68.dir/src.c.o  -o cmTC_c6f68 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WUNUSED_FUNCTION_SUPPORTED succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d8c9/fast && /usr/bin/make -f CMakeFiles/cmTC_5d8c9.dir/build.make CMakeFiles/cmTC_5d8c9.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d8c9.dir/src.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -DIS_WUNUSED_FUNCTION_SUPPORTED -fPIE   -Wunused-function -o CMakeFiles/cmTC_5d8c9.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5d8c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d8c9.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -DIS_WUNUSED_FUNCTION_SUPPORTED    CMakeFiles/cmTC_5d8c9.dir/src.c.o  -o cmTC_5d8c9 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WINT_CONVERSION_SUPPORTED succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_771cc/fast && /usr/bin/make -f CMakeFiles/cmTC_771cc.dir/build.make CMakeFiles/cmTC_771cc.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_771cc.dir/src.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -DIS_WINT_CONVERSION_SUPPORTED -fPIE   -Wint-conversion -o CMakeFiles/cmTC_771cc.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_771cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_771cc.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -DIS_WINT_CONVERSION_SUPPORTED    CMakeFiles/cmTC_771cc.dir/src.c.o  -o cmTC_771cc 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WFORMAT_SUPPORTED succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9685c/fast && /usr/bin/make -f CMakeFiles/cmTC_9685c.dir/build.make CMakeFiles/cmTC_9685c.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9685c.dir/src.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -DIS_WFORMAT_SUPPORTED -fPIE   -Wformat -o CMakeFiles/cmTC_9685c.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9685c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9685c.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -DIS_WFORMAT_SUPPORTED    CMakeFiles/cmTC_9685c.dir/src.c.o  -o cmTC_9685c 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WFORMAT_SECURITY_SUPPORTED succeeded with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab6f5/fast && /usr/bin/make -f CMakeFiles/cmTC_ab6f5.dir/build.make CMakeFiles/cmTC_ab6f5.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab6f5.dir/src.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wformat -DIS_WFORMAT_SECURITY_SUPPORTED -fPIE   -Wformat-security -o CMakeFiles/cmTC_ab6f5.dir/src.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ab6f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab6f5.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wformat -DIS_WFORMAT_SECURITY_SUPPORTED    CMakeFiles/cmTC_ab6f5.dir/src.c.o  -o cmTC_ab6f5 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function futimens exists passed with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_022cb/fast && /usr/bin/make -f CMakeFiles/cmTC_022cb.dir/build.make CMakeFiles/cmTC_022cb.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_022cb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=futimens -fPIE   -o CMakeFiles/cmTC_022cb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_022cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_022cb.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=futimens    CMakeFiles/cmTC_022cb.dir/CheckFunctionExists.c.o  -o cmTC_022cb 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the prototype qsort_r exists for HAVE_QSORT_R_GNU passed with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9b942/fast && /usr/bin/make -f CMakeFiles/cmTC_9b942.dir/build.make CMakeFiles/cmTC_9b942.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b942.dir/CheckPrototypeDefinition.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wformat -Wformat-security  -fPIE   -o CMakeFiles/cmTC_9b942.dir/CheckPrototypeDefinition.c.o   -c /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c: In function ‘qsort_r’:
+/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:20: warning: unused parameter ‘base’ [-Wunused-parameter]
+   14 | void qsort_r(void *base, size_t nmemb, size_t size, int (*compar)(const void *, const void *, void *), void *arg) {
+      |              ~~~~~~^~~~
+/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:33: warning: unused parameter ‘nmemb’ [-Wunused-parameter]
+   14 | void qsort_r(void *base, size_t nmemb, size_t size, int (*compar)(const void *, const void *, void *), void *arg) {
+      |                          ~~~~~~~^~~~~
+/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:47: warning: unused parameter ‘size’ [-Wunused-parameter]
+   14 | void qsort_r(void *base, size_t nmemb, size_t size, int (*compar)(const void *, const void *, void *), void *arg) {
+      |                                        ~~~~~~~^~~~
+/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:59: warning: unused parameter ‘compar’ [-Wunused-parameter]
+   14 | void qsort_r(void *base, size_t nmemb, size_t size, int (*compar)(const void *, const void *, void *), void *arg) {
+      |                                                     ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:110: warning: unused parameter ‘arg’ [-Wunused-parameter]
+   14 | void qsort_r(void *base, size_t nmemb, size_t size, int (*compar)(const void *, const void *, void *), void *arg) {
+      |                                                                                                        ~~~~~~^~~
+Linking C executable cmTC_9b942
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b942.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wformat -Wformat-security     CMakeFiles/cmTC_9b942.dir/CheckPrototypeDefinition.c.o  -o cmTC_9b942 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7baad/fast && /usr/bin/make -f CMakeFiles/cmTC_7baad.dir/build.make CMakeFiles/cmTC_7baad.dir/build
+make[1]: Entering directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7baad.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE   -o CMakeFiles/cmTC_7baad.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7baad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7baad.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_7baad.dir/CheckFunctionExists.c.o  -o cmTC_7baad   -L/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/time.h  -Wl,-rpath,/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp/time.h -lrt 
+make[1]: Leaving directory '/mnt/c/Users/a323747/.emacs.d/elpa/libgit-20200515.1759/build/CMakeFiles/CMakeTmp'
+
+
+

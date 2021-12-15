@@ -28,6 +28,7 @@
  '(custom-safe-themes
    '("7f1d414afda803f3244c6fb4c2c64bea44dac040ed3731ec9d75275b9e831fe5" "00445e6f15d31e9afaa23ed0d765850e9cd5e929be5e8e63b114a3346236c44c" "285d1bf306091644fb49993341e0ad8bafe57130d9981b680c1dbd974475c5c7" "c433c87bd4b64b8ba9890e8ed64597ea0f8eb0396f4c9a9e01bd20a04d15d358" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "0fffa9669425ff140ff2ae8568c7719705ef33b7a927a0ba7c5e2ffcfac09b75" "2809bcb77ad21312897b541134981282dc455ccd7c14d74cc333b6e549b824f3" "0598c6a29e13e7112cfbc2f523e31927ab7dce56ebb2016b567e1eff6dc1fd4f" "3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default))
  '(display-time-mode t)
+ '(inhibit-eol-conversion t)
  '(magit-log-margin '(t age-abbreviated magit-log-margin-width t 18))
  '(magit-log-section-commit-count 50)
  '(magit-log-select-margin '(t age-abbreviated magit-log-margin-width t 18))
@@ -38,9 +39,9 @@
    '("c:/Users/A323747/org-notes/ASIL_qualification.org" "c:/Users/A323747/org-notes/DAVA-support.org" "c:/Users/A323747/org-notes/EMobMeeting.org" "c:/Users/A323747/org-notes/General.org" "c:/Users/A323747/org-notes/ManualVMM.org" "c:/Users/A323747/org-notes/NominalSpeedEstimation.org" "c:/Users/A323747/org-notes/VERA.org" "c:/Users/A323747/org-notes/eTruckGen3.org"))
  '(org-export-backends '(ascii html latex odt confluence))
  '(org-modules
-   '(org-bbdb org-bibtex org-docview org-eww org-gnus org-info org-irc org-mhe org-rmail org-tempo org-w3m))
+   '(ol-bbdb ol-bibtex ol-docview ol-eww ol-gnus ol-info ol-irc ol-mhe ol-rmail org-tempo ol-w3m))
  '(package-selected-packages
-   '(cpputils-cmake company-rtags flycheck-rtags rtags cmake-mode cmake-project cmake-ide slack wanderlust solarized-theme company-ghc slime slime-company elgrep org-ref company-anaconda anaconda-mode org-bullets confluence ox-gfm spaceline-all-the-icons doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy auctex org))
+   '(forge multiple-cursors ada-mode ada-ref-man all-the-icons-ivy-rich cpputils-cmake company-rtags flycheck-rtags rtags cmake-mode cmake-project cmake-ide slack wanderlust solarized-theme company-ghc slime slime-company elgrep org-ref company-anaconda anaconda-mode org-bullets confluence ox-gfm spaceline-all-the-icons doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy auctex org))
  '(preview-auto-reveal
    '(eval
      (preview-arrived-via
@@ -63,7 +64,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((((class color) (min-colors 89)) (:foreground "#8d9fa1" :background "#002732"))))
+ '(default ((((class color) (min-colors 89)) (:foreground "#8d9fa1" :background "#002732" :family "Source Code Pro" :foundry "ADBO" :slant normal :weight normal :height 90 :width normal))))
  '(italic ((t (:underline nil :slant italic)))))
 
 ;; Dunno why, but incremental search becomes very slow on big files with the inconsolata font on windows.
@@ -142,6 +143,20 @@
 (global-set-key (kbd "C-c d") 'counsel-descbinds)
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 (global-set-key (kbd "C-x g") 'magit-status)
+(require 'forge)
+(setq auth-sources '("~/.authinfo"))
+(with-eval-after-load 'forge-core
+  (add-to-list 'forge-alist
+               '("vas-gitlab.ess.volvo.net"
+		 "vas-gitlab.ess.volvo.net/api/v4"
+		 "VAS"
+		 forge-gitlab-repository))
+  (add-to-list 'forge-alist
+	       '("stash.srv.volvo.com"
+		 "stash.srv.volvo.com/2.0/"
+		 "stash"
+		 forge-bitbucket-repository)))
+
 
 (setq-default fill-column 72)
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
