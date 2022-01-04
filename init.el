@@ -36,12 +36,12 @@
  '(magit-status-sections-hook
    '(magit-insert-status-headers magit-insert-merge-log magit-insert-rebase-sequence magit-insert-am-sequence magit-insert-sequencer-sequence magit-insert-bisect-output magit-insert-bisect-rest magit-insert-bisect-log magit-insert-untracked-files magit-insert-unstaged-changes magit-insert-staged-changes magit-insert-stashes magit-insert-unpulled-from-pushremote magit-insert-unpulled-from-upstream magit-insert-unpushed-to-pushremote magit-insert-unpushed-to-upstream magit-insert-recent-commits))
  '(org-agenda-files
-   '("c:/Users/A323747/org-notes/ASIL_qualification.org" "c:/Users/A323747/org-notes/DAVA-support.org" "c:/Users/A323747/org-notes/EMobMeeting.org" "c:/Users/A323747/org-notes/General.org" "c:/Users/A323747/org-notes/ManualVMM.org" "c:/Users/A323747/org-notes/NominalSpeedEstimation.org" "c:/Users/A323747/org-notes/VERA.org" "c:/Users/A323747/org-notes/eTruckGen3.org"))
+   '("c:/Users/A323747/org-notes/General.org"))
  '(org-export-backends '(ascii html latex odt confluence))
  '(org-modules
-   '(ol-bbdb ol-bibtex ol-docview ol-eww ol-gnus ol-info ol-irc ol-mhe ol-rmail org-tempo ol-w3m))
+   '(ol-bbdb ol-bibtex ol-docview ol-eww ol-gnus ol-info ol-irc ol-mhe ol-rmail ol-tempo ol-w3m))
  '(package-selected-packages
-   '(forge multiple-cursors ada-mode ada-ref-man all-the-icons-ivy-rich cpputils-cmake company-rtags flycheck-rtags rtags cmake-mode cmake-project cmake-ide slack wanderlust solarized-theme company-ghc slime slime-company elgrep org-ref company-anaconda anaconda-mode org-bullets confluence ox-gfm spaceline-all-the-icons doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy auctex org))
+   '(org-ref helm-bibtex pdf-tools ox-gfm ox-jira forge multiple-cursors ada-mode ada-ref-man all-the-icons-ivy-rich cpputils-cmake company-rtags flycheck-rtags rtags cmake-mode cmake-project cmake-ide slack wanderlust solarized-theme company-ghc slime slime-company elgrep company-anaconda anaconda-mode confluence spaceline-all-the-icons doom-modeline all-the-icons all-the-icons-ivy company-irony company-irony-c-headers company-quickhelp treemacs-icons-dired treemacs-evil lsp-julia flycheck lsp-mode ac-octave ccls company company-lsp dap-mode flycheck-haskell flycheck-julia flymake flymake-haskell-multi ghc ghc-imported-from haskell-emacs haskell-emacs-base haskell-emacs-text haskell-mode julia-mode julia-repl julia-shell lsp-clangd lsp-haskell lsp-python lsp-treemacs lsp-ui lua-mode projectile projectile-git-autofetch treemacs treemacs-magit treemacs-projectile markdown-mode markdown-mode+ markdown-preview-mode markdown-toc el-get req-package use-package libgit magit-libgit graphviz-dot-mode plantuml-mode eide realgud realgud-ipdb elpy elpygen bmx-mode powershell matlab-mode magit counsel flyspell-correct-ivy imenu-anywhere ivy-bibtex ivy-dired-history ivy-pages ivy auctex))
  '(preview-auto-reveal
    '(eval
      (preview-arrived-via
@@ -71,8 +71,7 @@
 (setq inhibit-compacting-font-caches t)
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-			 ("melpa" . "http://melpa.org/packages/")
-			 ("org" . "http://orgmode.org/elpa/")))
+			 ("melpa" . "http://melpa.org/packages/")))
 
 (menu-bar-mode 0)
 (tool-bar-mode 0)
