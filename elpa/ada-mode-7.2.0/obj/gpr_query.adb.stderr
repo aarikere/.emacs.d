@@ -1,0 +1,23 @@
+sax-pointers.ads:57:58: missing ";"
+sax-pointers.ads:57:71: generic private child packages not permitted
+sax-pointers.ads:57:71: subprogram specification expected
+sax-pointers.ads:62:46: "Encapsulated" is not visible
+sax-pointers.ads:62:46: non-visible (private) declaration at gnatcoll-refcount.ads:345, instance at gnatcoll-sql.ads:1181
+sax-pointers.ads:62:46: non-visible declaration at gnatcoll-refcount.ads:345
+sax-pointers.ads:62:46: non-visible declaration at gpr.ads:2050
+sax-pointers.ads:64:33: "Encapsulated" is not visible
+sax-pointers.ads:64:33: non-visible (private) declaration at gnatcoll-refcount.ads:345, instance at gnatcoll-sql.ads:1181
+sax-pointers.ads:64:33: non-visible declaration at gnatcoll-refcount.ads:345
+sax-pointers.ads:64:33: non-visible declaration at gpr.ads:2050
+sax-pointers.ads:65:40: "Encapsulated" is not visible
+sax-pointers.ads:65:40: non-visible (private) declaration at gnatcoll-refcount.ads:345, instance at gnatcoll-sql.ads:1181
+sax-pointers.ads:65:40: non-visible declaration at gnatcoll-refcount.ads:345
+sax-pointers.ads:65:40: non-visible declaration at gpr.ads:2050
+sax-utils.ads:171:53: "Smart_Pointers" is not the name of a generic package
+sax-utils.ads:174:28: "Symbol_Table_Pointers" is undefined
+sax-utils.ads:177:24: "Symbol_Table_Pointers" is undefined
+schema-validators.ads:912:44: "Smart_Pointers" is not the name of a generic package
+schema-validators.ads:914:28: "XML_Grammars" is undefined
+schema-validators.ads:914:28: possible misspelling of "XML_Grammar"
+schema-validators.ads:916:19: "XML_Grammars" is undefined
+schema-validators.ads:916:19: possible misspelling of "XML_Grammar"

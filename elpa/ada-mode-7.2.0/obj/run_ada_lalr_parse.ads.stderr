@@ -1,0 +1,8 @@
+gen_run_wisi_lr_parse.ads:27:52: missing ";"
+gen_run_wisi_lr_parse.ads:27:65: generic private child packages not permitted
+gen_run_wisi_lr_parse.ads:27:65: subprogram specification expected
+gen_run_wisi_lr_parse.ads:27:65: compilation unit expected
+gen_run_wisi_lr_parse.ads:34:04: misplaced "with"
+gen_run_wisi_lr_parse.ads:34:09: reserved word "procedure" cannot be used as identifier
+gen_run_wisi_lr_parse.ads:34:18: missing ";"
+gen_run_wisi_lr_parse.ads:34:19: compilation unit expected
