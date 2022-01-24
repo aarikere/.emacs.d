@@ -1,0 +1,2 @@
+;;; Generated package description from /mnt/c/Users/a323747/.emacs.d/elpa/ox-jira-20220121.1015/ox-jira.el  -*- no-byte-compile: t -*-
+(define-package "ox-jira" "20220121.1015" "JIRA Backend for Org Export Engine" '((org "8.3")) :commit "a8019237a8f5e016a7c952fc2f673a2498a0e779" :authors '(("Stig Brautaset" . "stig@brautaset.org")) :maintainer '("Stig Brautaset" . "stig@brautaset.org") :keywords '("outlines" "hypermedia" "wp") :url "https://github.com/stig/ox-jira.el")
